@@ -34,8 +34,7 @@ public class L2022211945_3_Test {
         assertTrue(result.contains(1));
         assertTrue(result.contains(2));
         assertTrue(result.contains(4));
-        //Step7
-        assertTrue(result.contains(9));
+        assertTrue(result.contains(8));
     }
 
     /**
