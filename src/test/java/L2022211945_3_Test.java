@@ -19,7 +19,6 @@ public class L2022211945_3_Test {
         List<Integer> result = solution.largestDivisibleSubset(nums);
         assertTrue(result.contains(1));
         assertTrue(result.contains(2));
-        Assert.assertEquals(1,2);
     }
 
     /**
@@ -34,8 +33,7 @@ public class L2022211945_3_Test {
         assertTrue(result.contains(0));
         assertTrue(result.contains(1));
         assertTrue(result.contains(3));
-        //Step7
-        assertTrue(result.contains(9));
+        assertTrue(result.contains(8));
     }
 
     /**
