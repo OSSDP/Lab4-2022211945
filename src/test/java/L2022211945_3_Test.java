@@ -30,9 +30,9 @@ public class L2022211945_3_Test {
         int[] nums = {1, 2, 4, 8};
         List<Integer> result = solution.largestDivisibleSubset(nums);
         assertEquals(4, result.size());
-        assertTrue(result.contains(0));
         assertTrue(result.contains(1));
-        assertTrue(result.contains(3));
+        assertTrue(result.contains(2));
+        assertTrue(result.contains(4));
         assertTrue(result.contains(8));
     }
 
